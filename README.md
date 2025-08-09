@@ -1,4 +1,5 @@
 Generador-Seguro-Contrasenas
+
 Proyecto universitario en Python para generar contraseñas seguras, evaluarlas y dar opciones para su uso.
 
 Características
