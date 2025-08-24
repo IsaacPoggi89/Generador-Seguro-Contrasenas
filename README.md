@@ -1,43 +1,26 @@
-Generador-Seguro-Contrasenas
+# Generador-Seguro-Contrasenas
 
-Proyecto universitario en Python para generar contraseñas seguras, evaluarlas y dar opciones para su uso.
+Proyecto universitario que utiliza los principios de la programación modular y la ciberseguridad para generar contraseñas seguras y planificar su diseño.
 
-Características
+## Características
+
 Este programa te permite:
+- Generar contraseñas aleatorias usando **funciones** que se ejecutan con **parámetros** definidos por el usuario.
+- Utilizar **estructuras de datos** como **diccionarios** y **listas** para organizar los criterios y los caracteres disponibles.
+- Evaluar el nivel de seguridad de la contraseña (Débil, Medio, Fuerte) con una **función** específica.
+- Copiar la contraseña al portapapeles o guardarla en un archivo de texto.
+- Repetir el proceso en un **bucle** para generar múltiples contraseñas.
 
-Generar contraseñas aleatorias de la longitud que desees (entre 8 y 16 caracteres).
+## Tecnologías y Herramientas
 
-Elegir el tipo de caracteres que quieres usar a través de un menú de opciones (letras, números, símbolos, o una combinación).
+- **Python 3:** Lenguaje de programación principal.
+- **Librerías estándar de Python:** `random` y `string`.
+- **Git y GitHub:** Para el control de versiones y la gestión del proyecto.
 
-Evaluar el nivel de seguridad de la contraseña (Débil, Medio, Fuerte).
+## Diseño y Arquitectura
 
-Guardar la contraseña generada en un archivo de texto (contraseña_generada.txt).
+El proyecto está diseñado siguiendo la **arquitectura MVC (Modelo-Vista-Controlador)**, lo que facilita la separación de la lógica, la interfaz de usuario y el control de la aplicación. También se utilizan **Diagramas de Flujo de Datos (DFD)** y otros diagramas para planificar y documentar el proyecto antes de codificarlo.
 
-Repetir el proceso para generar múltiples contraseñas en una sola ejecución.
+## Autor
 
-Tecnologías y Herramientas
-Python 3: Lenguaje de programación principal.
-
-Librerías estándar de Python: random y string.
-
-Git y GitHub: Para el control de versiones y la gestión del proyecto.
-
-Cómo usar el programa
-Para ejecutar el generador de contraseñas, sigue estos sencillos pasos:
-
-Asegúrate de tener Python 3 instalado en tu sistema.
-
-Descarga o clona este repositorio a tu computadora.
-
-Abre una terminal o tu entorno de desarrollo (como Spyder).
-
-Navega a la carpeta del proyecto.
-
-Ejecuta el siguiente comando:
-
-python generador.py
-
-Sigue las instrucciones que aparecen en pantalla para generar tu contraseña.
-
-Autor:
-Isaac Poggi - Estudiante de Lógica de Programación.
+- **Isaac Poggi** - Estudiante de Lógica de Programación.
